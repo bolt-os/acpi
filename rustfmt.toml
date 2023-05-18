@@ -1,0 +1,13 @@
+edition = "2021"
+
+format_code_in_doc_comments = true
+format_macro_matchers = true
+
+force_explicit_abi = false
+hex_literal_case = "Lower"
+overflow_delimited_expr = true
+group_imports = "StdExternalCrate"
+use_field_init_shorthand = true
+
+enum_discrim_align_threshold = 80
+struct_field_align_threshold = 80
