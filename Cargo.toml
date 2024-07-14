@@ -8,5 +8,6 @@ default = ["alloc"]
 alloc = []
 
 [dependencies]
-bitflags = "<2"
+bitflags = "2.3"
+libsa = { git = "https://github.com/bolt-os/libsa.git" }
 log = "*"
